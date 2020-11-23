@@ -1,0 +1,34 @@
+<html>
+	<head>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="script.js"> </script>
+	</head>
+	<body>
+	  <div id="mainDiv">
+	  
+      <div id="messages">
+	   <h1> <p id="principalMessage"> Goals Average System </p></h1>
+	   <p id="secondMessage"> In orden to use the average system, you must enter the quantity and amount of goalds</p>
+	  </div>
+	  
+	  <div id="divQuantity">
+	   <input type="text" id="fquant" name="fquant" onkeyup="validate()">
+	   <label for="fname">Quantity </label>
+	  </div>
+
+	  <div id="divGoals">
+	   <input type="text" id="lgoal" name="lgoal" onkeyup=" validate()">
+	   <label for="lname">Goals </label>
+	  </div>
+      
+      <button id="button1" onclick="myHideShow()">Hide/Show</button>
+	  <div id="Progress_Status"> 
+	   <div id="myprogressBar"><p id="countNumber">1%</p></div> 
+	  </div> 
+	  <button id="button2" onclick="clearAll()">Clear</button>
+	  
+    </div>
+	  
+	  
+	</body>
+</html>
